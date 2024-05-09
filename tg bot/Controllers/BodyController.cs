@@ -6,7 +6,7 @@ namespace APIprot.Controllers
 {
     [ApiController]
     [Route("controller")]
-    public class BodyController : Controller
+    public class BodyController : ControllerBase
     {
         private readonly ILogger<BodyController> _logger;
         public BodyController(ILogger<BodyController> logger)
